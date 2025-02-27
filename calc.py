@@ -19,9 +19,9 @@ def main():
     number2=st.number_input("enter the number")
     result=cal(number1,number2,operator)
     if st.button("calculate"):
-        print(st.sucess)
-    if __name__=="__main__":
-        main()
+        print(st.success)
+if __name__=="__main__":
+    main()
 
         
             
